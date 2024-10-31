@@ -2,4 +2,4 @@ s = []
 for i in range(51):
     s[i] = int(input())
 s.sort()
-print(s)
+print(s,  'hihi')
