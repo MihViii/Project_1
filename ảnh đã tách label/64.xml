@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ảnh biển ô tô</folder>
+	<filename>64.jpg</filename>
+	<path>C:\Users\VIP\OneDrive\Máy tính\ảnh biển ô tô\64.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>291</width>
+		<height>173</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>64</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>79</ymin>
+			<xmax>167</xmax>
+			<ymax>90</ymax>
+		</bndbox>
+	</object>
+</annotation>
