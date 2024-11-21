@@ -1,26 +1,26 @@
 <annotation>
-	<folder>samples project</folder>
+	<folder>ảnh biển ô tô</folder>
 	<filename>42.jpg</filename>
-	<path>/Users/danhloc/Desktop/samples project/42.jpg</path>
+	<path>C:\Users\VIP\OneDrive\Máy tính\ảnh biển ô tô\42.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>600</width>
-		<height>480</height>
+		<width>245</width>
+		<height>205</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>number-plate</name>
+		<name>42</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>186</xmin>
-			<ymin>179</ymin>
-			<xmax>393</xmax>
-			<ymax>326</ymax>
+			<xmin>79</xmin>
+			<ymin>173</ymin>
+			<xmax>149</xmax>
+			<ymax>190</ymax>
 		</bndbox>
 	</object>
 </annotation>
