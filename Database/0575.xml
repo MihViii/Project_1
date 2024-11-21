@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ảnh biển ô tô</folder>
+	<filename>0575.jpg</filename>
+	<path>C:\Users\VIP\OneDrive\Máy tính\ảnh biển ô tô\0575.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0575</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>227</xmin>
+			<ymin>185</ymin>
+			<xmax>380</xmax>
+			<ymax>294</ymax>
+		</bndbox>
+	</object>
+</annotation>
