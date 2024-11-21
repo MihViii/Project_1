@@ -1,26 +1,26 @@
 <annotation>
-	<folder>samples project</folder>
+	<folder>label</folder>
 	<filename>44.jpg</filename>
-	<path>/Users/danhloc/Desktop/samples project/44.jpg</path>
+	<path>C:\Users\VIP\OneDrive\Máy tính\label\44.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>600</width>
-		<height>480</height>
+		<width>472</width>
+		<height>303</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>number-plate</name>
+		<name>44</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>146</xmin>
-			<ymin>214</ymin>
-			<xmax>352</xmax>
-			<ymax>362</ymax>
+			<xmin>167</xmin>
+			<ymin>152</ymin>
+			<xmax>229</xmax>
+			<ymax>211</ymax>
 		</bndbox>
 	</object>
 </annotation>

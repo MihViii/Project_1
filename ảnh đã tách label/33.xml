@@ -1,13 +1,13 @@
 <annotation>
-	<folder>ảnh biển ô tô</folder>
+	<folder>label</folder>
 	<filename>33.jpg</filename>
-	<path>C:\Users\VIP\OneDrive\Máy tính\ảnh biển ô tô\33.jpg</path>
+	<path>C:\Users\VIP\OneDrive\Máy tính\label\33.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>168</height>
+		<width>593</width>
+		<height>436</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>101</xmin>
-			<ymin>117</ymin>
-			<xmax>180</xmax>
-			<ymax>137</ymax>
+			<xmin>211</xmin>
+			<ymin>174</ymin>
+			<xmax>346</xmax>
+			<ymax>272</ymax>
 		</bndbox>
 	</object>
 </annotation>
