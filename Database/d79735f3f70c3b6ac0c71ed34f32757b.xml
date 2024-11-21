@@ -1,0 +1,26 @@
+<annotation>
+	<folder>samples project</folder>
+	<filename>d79735f3f70c3b6ac0c71ed34f32757b.jpg</filename>
+	<path>/Users/danhloc/Desktop/samples project/d79735f3f70c3b6ac0c71ed34f32757b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>473</width>
+		<height>355</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>337</ymin>
+			<xmax>403</xmax>
+			<ymax>352</ymax>
+		</bndbox>
+	</object>
+</annotation>
