@@ -20,11 +20,11 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten, Input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 # trich anh ra
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-from google.colab import drive
-drive.mount('/content/drive')
-path = glob('Database/images/*.xml')
+import glob
+
+# Sử dụng glob để tìm các tệp .xml trong đường dẫn cục bộ trên máy tính
+path = glob.glob(r'C:/Users/HP/Documents/ĐH/GT TTNT/Thực hành/project/GITHUB/Project_1/DataSet/images/*.xml')
+
 labels_dict = dict(filepath=[],xmin=[],xmax=[],ymin=[],ymax=[])
 for i in path:
     info = xet.parse(i)
@@ -41,15 +41,17 @@ for i in path:
     labels_dict['xmax'].append(xmax)
     labels_dict['ymin'].append(ymin)
     labels_dict['ymax'].append(ymax)
-glob('Database/images/*.xml')
+
 df = pd.DataFrame(labels_dict)
 df.to_csv('labels.csv',index=False)
 df.head()
+
 filename = df['filepath'][0]
 def getFilename(filename):
     filename_image = xet.parse(filename).getroot().find('filename').text
     filepath_image = os.path.join('DataSet/images',filename_image)
     return filepath_image
 getFilename(filename)
+
 image_path = list(df['filepath'].apply(getFilename))
 image_path[:10]#random check
