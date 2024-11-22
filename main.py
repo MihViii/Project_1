@@ -19,13 +19,16 @@ from tensorflow.keras.applications import InceptionResNetV2
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
-# trich anh ra
+    # trich anh ra
 import glob
 
-# Sử dụng glob để tìm các tệp .xml trong đường dẫn cục bộ trên máy tính
+    # Sử dụng glob để tìm các tệp .xml trong đường dẫn cục bộ trên máy tính
 path = glob.glob(r'C:/Users/HP/Documents/ĐH/GT TTNT/Thực hành/project/GITHUB/Project_1/DataSet/images/*.xml')
 
+    # Tạo dictionary
 labels_dict = dict(filepath=[],xmin=[],xmax=[],ymin=[],ymax=[])
+
+    # Duyệt các file xml trong đường dẫn
 for i in path:
     info = xet.parse(i)
     root = info.getroot()
@@ -44,8 +47,9 @@ for i in path:
 
 df = pd.DataFrame(labels_dict)
 df.to_csv('labels.csv',index=False)
-df.head()
+print(df.head())
 
+    # Hàm lấy đường dẫn ảnh
 filename = df['filepath'][0]
 def getFilename(filename):
     filename_image = xet.parse(filename).getroot().find('filename').text
@@ -54,4 +58,5 @@ def getFilename(filename):
 getFilename(filename)
 
 image_path = list(df['filepath'].apply(getFilename))
-image_path[:10]#random check
+print(image_path[:10])   # random check
+
