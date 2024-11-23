@@ -60,6 +60,7 @@ def getFilename(filename):
     filename_image = xet.parse(filename).getroot().find('filename').text
     # filepath_image = os.path.join('DataSet/images',filename_image)
     filepath_image = os.path.join('./DataSet/images', filename_image)
+    
     return filepath_image
 getFilename(filename)
 
