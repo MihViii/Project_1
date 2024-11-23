@@ -28,7 +28,7 @@ import glob
     # Sử dụng glob để tìm các tệp .xml trong đường dẫn cục bộ trên máy tính
 # path = glob.glob(os.path.join(base_dir, 'DataSet/images/*.xml'))
 
-path = glob.glob(r'C:/Users/HP/Documents/University/GT TTNT/Practice/project/New folder/Project_1/DataSet/images/*.xml')
+path = glob.glob(r'./DataSet/images/*.xml')
 
     # Tạo dictionary
 labels_dict = dict(filepath=[],xmin=[],xmax=[],ymin=[],ymax=[])
@@ -59,7 +59,8 @@ filename = df['filepath'][0]
 def getFilename(filename):
     filename_image = xet.parse(filename).getroot().find('filename').text
     # filepath_image = os.path.join('DataSet/images',filename_image)
-    filepath_image = os.path.join('C:/Users/HP/Documents/University/GT TTNT/Practice/project/New folder/Project_1/DataSet/images', filename_image)
+    filepath_image = os.path.join('./DataSet/images', filename_image)
+    
     return filepath_image
 getFilename(filename)
 
