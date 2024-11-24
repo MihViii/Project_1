@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>DL10CH3248.jpg</filename>
+	<path>/Users/danhloc/Documents/Project_1/Datasets/images/DL10CH3248.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>numer-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>338</ymin>
+			<xmax>452</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>3732FWW.jpg</filename>
+	<path>/Users/danhloc/Documents/Project_1/Datasets/images/3732FWW.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>numer-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>187</ymin>
+			<xmax>449</xmax>
+			<ymax>243</ymax>
+		</bndbox>
+	</object>
+</annotation>

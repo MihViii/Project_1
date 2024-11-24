@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>CMD262.jpg</filename>
+	<path>/Users/danhloc/Documents/Project_1/Datasets/images/CMD262.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>264</width>
+		<height>191</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>numer-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>85</ymin>
+			<xmax>98</xmax>
+			<ymax>111</ymax>
+		</bndbox>
+	</object>
+</annotation>
