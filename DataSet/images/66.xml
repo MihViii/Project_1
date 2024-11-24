@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>66.jpg</filename>
+	<path>/Users/danhloc/Documents/Project_1/Datasets/images/66.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>195</xmin>
+			<ymin>653</ymin>
+			<xmax>410</xmax>
+			<ymax>776</ymax>
+		</bndbox>
+	</object>
+</annotation>
