@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ảnh biển ô tô</folder>
+	<filename>14.jpg</filename>
+	<path>C:\Users\VIP\OneDrive\Máy tính\ảnh biển ô tô\14.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>273</width>
+		<height>184</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>14</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>133</ymin>
+			<xmax>173</xmax>
+			<ymax>148</ymax>
+		</bndbox>
+	</object>
+</annotation>
